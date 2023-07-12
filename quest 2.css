@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e8e8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 370px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+h2 {
+    font-size: 20px;
+    color: #2c2c2c;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #554c4c;
+    height: 30px;
+    width: 80%;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.uname {
+    position: absolute;
+    top: 72px;
+    left: 224px;
+    font-size: 13px;
+    color: #777;
+    pointer-events: none;
+}
+
+.pass {
+    position: absolute;
+    top: 113px;
+    left: 224px;
+    font-size: 13px;
+    color: #777;
+    pointer-events: none;
+}
+
+button {
+    color: #fff;
+    background-color: rgb(0, 131, 245);
+    border: none;
+    border-radius: 4px;
+    padding: 6px;
+    width: 326px;
+    margin-bottom: 20px;
+}
+
+.fielduname:focus~.uname {
+    color: transparent;
+}
+
+.fieldpass:focus~.pass {
+    color: transparent;
+}
